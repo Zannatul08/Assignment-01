@@ -481,6 +481,7 @@ opacity: 0.7;
     justify-content: space-evenly;
     align-items: stretch;
     margin-top: 48px;
+    margin-bottom: 10px;
 }
 
 .card-1{
@@ -639,4 +640,168 @@ letter-spacing: 0%;
 text-align: left;
 opacity: 0.7;
 
+}
+
+.fifth-part-container{
+    margin-top: 10px;
+    background-color: rgba(0,0,0,0.5);
+    background-blend-mode: overlay;
+    background-image: url(../assets/handshake.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    
+    /* align-self: stretch; */
+    margin: 0 auto;
+    /* Frame 8 */
+
+width: 1140px;
+height: 210px;
+
+/* left: 150px;
+right: 150px;
+top: 4752px;
+bottom: 179px; */
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 64px 48px 64px 48px;
+
+border-radius: 16px;
+
+/* background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),url(Email); */
+} 
+
+.fifth-part-content{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin: 0 auto;
+}
+
+.fifth-part-content h2{
+    /* I need Support */
+   
+position: static;
+width: 292px;
+height: 36px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 16px 0px;
+color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 32px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.fifth-part-content p{
+    /* Lorem Ipsum is simply dummy text of the printing and typesetting industry. */
+margin-top: 5px;
+margin-bottom: 8px;
+width: 606px;
+height: 52px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+
+opacity: 0.7;
+color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+
+}
+
+.fifth-part-content textarea{
+    /* Frame 7 */
+position: static;
+width: 548px;
+height: 57px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+padding: 19px 20px 19px 20px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 16px;
+
+box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.15);
+border-radius: 8px;
+
+background: rgb(255, 255, 255);
+}
+
+.text-area-block{
+    display: flex;
+
+}
+
+.submit-btn{
+/* Submit */
+
+width: 80px;
+height: 24px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 17px 20px 17px 20px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+margin: 0px 10px;
+
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 20px;
+font-weight: 600;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: center;
+
+width: 120px;
+height: 58px;
+
+border-radius: 8px;
+
+
+background: rgb(255, 255, 255);
+padding: 17px 20px 17px 20px;
 }
